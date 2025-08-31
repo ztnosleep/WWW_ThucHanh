@@ -1,7 +1,8 @@
 package iuh.fit;
 
 import java.io.*;
-
+import com.fasterxml.jackson.databind.ObjectMapper;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
@@ -12,19 +13,23 @@ import jakarta.servlet.annotation.*;
         }
 )
 public class Servlet02 extends HttpServlet {
-    private String message;
 
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
 
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>"+ "Bài 2"+"</h1>");
-        out.println("Param: " + this.getServletConfig().getInitParameter("username") + "\n");
-        out.println("Param: " + this.getServletConfig().getInitParameter("email"));
-        out.println("</body></html>");
-    }
-    public void destroy() {
+        int id = Integer.parseInt(getServletConfig().getInitParameter("id"));
+        String name = getServletConfig().getInitParameter("name");
+        String email = getServletConfig().getInitParameter("email");
+
+        User user = new User(id, name, email);
+
+        ObjectMapper mapper = new ObjectMapper();
+        String jsonString = mapper.writeValueAsString(user);
+
+        response.setContentType("application/json;charset=UTF-8");
+
+        response.getWriter().write(jsonString);
     }
 }
