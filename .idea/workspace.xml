@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a818d363-6f44-4aeb-9e60-41d2160039ae" name="Changes" comment="commit lab 1">
-      <change beforePath="$PROJECT_DIR$/Lab01/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/src/main/java/iuh/fit/Servlet02.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/src/main/java/iuh/fit/Servlet02.java" afterDir="false" />
-    </list>
+    <list default="true" id="a818d363-6f44-4aeb-9e60-41d2160039ae" name="Changes" comment="commit c3 lab 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,6 +139,7 @@
       <workItem from="1756615103752" duration="224000" />
       <workItem from="1756615349273" duration="61000" />
       <workItem from="1756615925499" duration="51000" />
+      <workItem from="1756616097962" duration="75000" />
     </task>
     <task id="LOCAL-00001" summary="commit lab 1">
       <option name="closed" value="true" />
@@ -152,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756044270419</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit c3 lab 1">
+      <option name="closed" value="true" />
+      <created>1756616163191</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756616163191</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit lab 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit lab 1" />
+    <MESSAGE value="commit c3 lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit c3 lab 1" />
   </component>
 </project>
