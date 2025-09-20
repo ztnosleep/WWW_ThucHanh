@@ -8,5 +8,6 @@
 <body>
 <h2>Welcome, <%= session.getAttribute("username") %>!</h2>
 <a href="<%= request.getContextPath() %>/logout">Logout</a>
+<a href="<%= request.getContextPath() %>/upload.jsp">Upload File</a>
 </body>
 </html>
