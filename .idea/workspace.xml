@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a818d363-6f44-4aeb-9e60-41d2160039ae" name="Changes" comment="commit c3 lab 1">
+      <change afterPath="$PROJECT_DIR$/Lab02/src/main/java/iuh/fit/lab02/filters/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/main/java/iuh/fit/lab02/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/main/java/iuh/fit/lab02/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab02/src/main/resources/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.idea/material_theme_project_new.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/iuh/fit/lab03/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/src/main/java/iuh/fit/lab03/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab03/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab02/src/main/java/iuh/fit/lab02/HelloServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +50,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HoVinhThai/WWW/Lab02&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -171,6 +147,8 @@
       <workItem from="1756616097962" duration="75000" />
       <workItem from="1756729809244" duration="406000" />
       <workItem from="1757659245000" duration="1927000" />
+      <workItem from="1757693322507" duration="883000" />
+      <workItem from="1758094926423" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="commit lab 1">
       <option name="closed" value="true" />
