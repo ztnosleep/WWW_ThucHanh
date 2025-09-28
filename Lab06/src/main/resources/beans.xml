@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean using constructor injection -->
+    <bean id="address1" class="iuh.fit.models.Address">
+        <constructor-arg value="Hanoi"/>
+        <constructor-arg value="HN"/>
+        <constructor-arg value="Vietnam"/>
+    </bean>
+
+    <bean id="employee1" class="iuh.fit.models.Employee">
+        <constructor-arg value="1"/>
+        <constructor-arg value="Nguyen Van A"/>
+        <constructor-arg ref="address1"/>
+    </bean>
+
+    <!-- Bean using setter injection -->
+    <bean id="address2" class="iuh.fit.models.Address">
+        <property name="city" value="Da Nang"/>
+        <property name="state" value="DN"/>
+        <property name="country" value="Vietnam"/>
+    </bean>
+
+    <bean id="employee2" class="iuh.fit.models.Employee">
+        <property name="id" value="2"/>
+        <property name="name" value="Tran Thi B"/>
+        <property name="address" ref="address2"/>
+    </bean>
+
+</beans>
